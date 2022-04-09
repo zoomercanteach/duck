@@ -1,0 +1,95 @@
+body {
+    /* Сброс стандартых стилей */
+    margin: 0;
+}
+
+.nav {
+    padding: 15px;
+    background-color: rgb(33, 47, 139);
+    color: white;
+}
+
+.nav-ul {
+    /* Сброс стандартых стилей */
+    margin: 0;
+    list-style: none;
+    padding: 0;
+
+    /* Выстраивание элементов в строку */
+    display: flex;
+}
+
+.nav-li {
+    /* Отступ сверху и снизу 0, справа и слева 10px */
+    padding: 0 1vw;
+    background-color: aliceblue;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-li:hover {
+    color: rgb(107, 107, 107);
+    
+    /* Подчеркивание текста при наведении */
+    text-decoration: underline;
+}
+
+.row {
+    display: flex;
+}
+
+.welcome-text {
+    padding: 2vw;
+}
+
+.banner-img {
+    width: 40vw;
+    padding-left: 30vw;
+}
+
+.buttons {
+    display: flex;
+
+    /* Отступ, чтобы кнопки не прилепали к тексту */
+    padding-top: 2vh;
+}
+
+.button {
+    /* Тег a это строчный тег, эти свойством сы велим ему вести себя как блочный.
+        Чтобы почувтсвовать разницу, уберите эту строку и сделайте окно браузера очень узким */
+    display: block;
+
+    background-color: darkgoldenrod;
+    color: white;
+    text-decoration: none;
+    padding: 1vw 2vw;
+    margin-right: 1vw;
+}
+
+.button-2 {
+    background-color: darkblue;
+}
+
+.button:hover {
+    color: azure;
+    
+    /* Подчеркивание текста при наведении */
+    text-decoration: underline;
+}
+
+.card {
+    background-color: linen;
+    margin: 3vw;
+    padding: 3vw;
+}
+
+.card-flex {
+    /* Выравнивание всех элементов в столбик */
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #71b1e5;
+    padding: 30px;
+}
